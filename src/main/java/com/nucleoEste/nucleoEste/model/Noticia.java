@@ -10,7 +10,7 @@ public class Noticia implements Serializable {
 
     private static final long serialVersionUID=1l;
 
-    @jakarta.persistence.Id
+    @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "codigo", nullable = false)
     private Long codigo;
